@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+/* @media screen and (max-width: 1441px) {
+  header a {
+    font-size: 10px;
+  }
+} */
+header {
+  backdrop-filter: blur(74.5px);
+  font-size: 20px;
+  padding-left: 132px;
+  padding-right: 132px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.op {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid white;
+  appearance: none;
+  padding-left: 0 28px;
+  margin-right: 0;
+}
+.op option {
+  background-color: black;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+header ul li {
+  /* margin-right: 18px; */
+  text-decoration: none;
+}
+header img {
+  width: 140px;
+  height: 48px;
+}
+header select {
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px;
+  width: 94px;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+section {
+  background-size: cover;
+  position: relative;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  padding-inline: 120px;
+}
+
+.section1 .inner {
+  font-size: 24px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.section1 h1 {
+  width: 1220px;
+  font-size: 96px;
+  font-weight: 400;
+}
+.section1 p {
+  max-width: 915px;
+  width: 100%;
+}
+.abc {
+  display: flex;
+  justify-content: end;
+  /* background-color: green; */
+  gap: 50px;
+  font-size: 24px;
+  margin-top: -100px;
+}
+
+.section1 .heading {
+  position: relative;
+  flex: 1;
+}
+
+.header .explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  height: 72px;
+  width: 281px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+.request {
+  background-color: transparent;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  display: flex;
+  height: 72px;
+  width: 281px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+  color: white;
+}
+.scroll {
+  width: 94px;
+  height: 94px;
+  border-radius: 100px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin-top: 50px;
+}
+.non {
+  background-color: white;
+  width: 915px;
+  height: 1px;
+  border: 1px;
+  border-color: #ffffff;
+}
+.vision {
+  width: 824px;
+  height: 252px;
+  padding-left: 125px;
+  padding-top: 400px;
+}
+.section3 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#mission {
+  width: 613px;
+  padding-right: 97px;
+  padding-bottom: 131px;
+  display: flex;
+  flex-direction: column;
+}
+#mission h3 {
+  padding: 0;
+  margin-top: 20px;
+}
+#core {
+  padding-inline: 142px;
+  padding-top: 234px;
+  display: flex;
+  align-items: center;
+}
+#value {
+  display: flex;
+  padding-top: 100px;
+  gap: 100px;
+  padding-left: 210px;
+}
+#value h4 {
+  margin-top: 64px;
+  white-space: nowrap;
+}
+.banner {
+  text-align: center;
+  padding-top: 72px;
+}
+.banner p {
+  font-size: 24px;
+}
+#gr1 {
+  padding-left: 39px;
+  padding-top: 92px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 46px;
+}
+#banner {
+  width: 447px;
+  height: 447px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  border-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(25.8px);
+  margin-left: -160px;
+  font-size: 24px;
+}
+#gr1 img {
+  width: 447px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid 1px;
+  border-radius: 100%;
+  border-color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+.gr1 {
+  padding-top: 100px;
+  padding-bottom: 46px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.technology {
+  backdrop-filter: blur(80.4px);
+  width: 50%;
+  margin-left: auto;
+  height: 100%;
+  padding: 114px 0px;
+}
+.technology .technology-inner {
+  padding-inline: 108px;
+  display: flex;
+  flex-direction: column;
+}
+.technology img {
+  width: 440px;
+  height: 252px;
+}
+#technology {
+}
+#gr2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  max-width: 547px;
+  width: 100%;
+  margin-top: -40px;
+}
+#gr2 p {
+  font-size: 24px;
+  max-width: 547px;
+}
+#gr2 img {
+  aspect-ratio: 1;
+}
+.sss {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 331px;
+}
+.sss h1 {
+  display: flex;
+  font-size: 48px;
+  gap: 16px;
+}
+.sss p {
+  font-size: 24px;
+  width: 320px;
+}
+#a {
+  background-color: white;
+  width: 231px;
+  height: 1px;
+  border: 1px;
+  border-color: #ffffff;
+  position: relative;
+  top: 60px;
+}
+#b {
+  background-color: white;
+  width: 20px;
+  height: 1px;
+  border: 1px;
+  border-color: #ffffff;
+  position: relative;
+  top: 20px;
+}
+.technology h4 {
+  display: flex;
+  gap: 10px;
+}
+.pack {
+  background-color: white;
+  width: 254px;
+  height: 1px;
+  border: 1px;
+  border-color: #ffffff;
+  margin-left: 300px;
+}
+.pack2 {
+  background-color: white;
+  width: 254px;
+  height: 1px;
+  border: 1px;
+  border-color: #ffffff;
+  margin-left: 330px;
+}
+.pack3 {
+  background-color: white;
+  width: 1px;
+  height: 33%;
+  border: 1px;
+  border-color: #ffffff;
+}
+.core-item {
+  max-width: 475px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid white;
+  border-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(25.8px);
+  gap: 7%;
+  padding: 20px;
+  margin-left: -40px;
+}
+.core-item h3 {
+  margin: 0;
+}
+
+.core1,
+.core2,
+.core3,
+.core4 h3 {
+  text-align: center;
+}
+.core2,
+.core4 {
+  display: flex;
+  justify-content: end;
+}
