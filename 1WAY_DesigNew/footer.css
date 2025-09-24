@@ -1,0 +1,96 @@
+footer {
+  backdrop-filter: blur(80.4px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-size: cover;
+}
+.contact {
+  padding-inline: 100px;
+  padding-block: 220px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding-left: 160px;
+}
+
+.gr6 {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 10px;
+}
+
+.bbb {
+  margin: 10px;
+  border: #ffffff;
+}
+.gr7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 2vw;
+  padding-left: 162px;
+  padding-bottom: 62px;
+}
+
+#end {
+  width: 90%;
+  margin-inline: 162px;
+  border: none;
+  border-top: 1px solid #cccccc;
+  background: none;
+}
+.fullname,
+.email,
+.company {
+  background-color: transparent;
+  border: 1px solid white;
+  border-width: 0 0 1px 0;
+  height: 42px;
+  width: 279.5px;
+}
+
+.messsage {
+  background-color: transparent;
+  border: 1px solid white;
+  border-width: 0 0 1px 0;
+  width: 886.5px;
+  height: 42px;
+}
+.footer button {
+  font-size: 24px;
+  display: flex;
+  height: 48px;
+  width: 162px;
+  border: 1px;
+  margin: 10px;
+  border-radius: 100px;
+  justify-content: center;
+}
+.zzz {
+  background-color: white;
+  width: 1px;
+  height: 24px;
+  border: 1px;
+  border-color: #ffffff;
+  position: relative;
+  margin: 20px;
+}
+.info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.info a {
+  text-decoration: none;
+}
+.gr7 a {
+  color: #ffffff;
+}

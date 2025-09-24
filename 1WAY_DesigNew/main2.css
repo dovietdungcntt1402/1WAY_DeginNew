@@ -1,0 +1,66 @@
+.header {
+  background-image: url(anh/anh1.png);
+  background-size: cover;
+
+  height: 980px;
+  padding-bottom: 80px;
+}
+.section2 {
+  background-image: url(anh/anh2.jpg);
+  height: 980px;
+}
+.section3 {
+  background-image: url(anh/anh3.jpg);
+  height: 980px;
+  background-position: 10% 40%;
+}
+.section4 {
+  background-image: url(anh/anh4.jpg);
+  height: 980px;
+}
+.section5 {
+  background-image: url(anh/anh2.jpg);
+  /* height: 980px; */
+}
+.section6 {
+  background-image: url(anh/anh5.jpg);
+  min-height: 980px;
+}
+.section7 {
+  background-image: url(anh/anh6.jpg);
+}
+.section8 {
+  background-image: url(anh/anh8.jpg);
+  height: 980px;
+}
+.section9 {
+  background-image: url(anh/anh9.jpg);
+  background-size: cover;
+}
+.section2 h1,
+.section3 h1,
+.section4 h1,
+.section5 h1,
+.section6 h1,
+.section7 h1,
+.section8 h1,
+.section9 h1 {
+  font-size: 84px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section2 h4,
+.section4 h4,
+.section6 h4,
+.section7 h4,
+.section9 h4 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.section2 h3,
+.section3 h3,
+.section4 h3,
+.section8 h3 {
+  font-size: 48px;
+  font-weight: 400;
+}
